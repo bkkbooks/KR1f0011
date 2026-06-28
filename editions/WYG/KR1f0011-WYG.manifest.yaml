@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR1f0011/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR1f0011/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 御定孝經注
+  date: '2015-08-24 22:18:16.057479'
+  source:
+    repository: kanripo
+    path: KR1f0011
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1f0011_000-WYG.yaml, hash: 'sha256:8ba12d47974047e7cf54aaa8bc1ba4711adb5d13d0ccb395e50a78bdcfadb716'}
+  - {seq: 1, filename: KR1f0011_001-WYG.yaml, hash: 'sha256:90dd9377fa7af9a57db49b0d6d2dd5eb406e2892c36b78e73d5cfab298f3ebac'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1f0011_000-WYG.markers.yaml, hash: 'sha256:a7a2d872095cd3362f5c12f1170621d0c97053ad849041a6fb1ab602c49bbf9a'}
+  - {seq: 1, role: markers, filename: assets/KR1f0011_001-WYG.markers.yaml, hash: 'sha256:5ca4116b92e3631e888a718c68f7b96e948152010d7701398a4aeb0cce8dbb75'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1f0011_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 1147
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1f0011_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 11670
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:2110fa5a1fdd46f75d072718bcc609b1b839d8e62f90384aea21c7ec63f88400
